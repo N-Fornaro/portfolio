@@ -1,3 +1,27 @@
-<img src="" alt="">
-<h2 class="text-xl font-bold bg-red-600 ">Présentation de Nicolas Fornaro</h2>
-<p>Texte descriptif</p>
+<section id="hello" class="flex flex-row justify-center">
+  <div class="container flex flex-row justify-center">
+
+    <%= image_tag "nicolas-profil.jpg", class: "", width: "300px" %>
+
+    <div class="infos flex flex-col justify-between">
+      <div class="text-infos">
+        <h2 class="text-xl font-bold bg-red-600 ">Hello,</h2>
+        <p>Je suis Nicolas Fornaro, Développeur Web, passionné par les nouvelles technologies et leurs facultés à améliorer la productivité des entreprises. <br>Je mets mes services à votre disposition à travers ma société <strong>FornaDev</strong>. </p>
+      </div>
+
+      <div class="border-solid border-t"></div>
+
+      <div class="li-infos m-1">
+        <ul class="grid grid-cols-2 gap-2 items-center justify-center">
+          <li><strong>Nom</strong> : Nicolas Fornaro</li>
+          <li><strong>Job</strong> : Développeur Web</li>
+          <li><strong>Âge</strong> : 29 ans</li>
+          <li><strong>Ville</strong> : Marseille / Paris Île-de-France</li>
+        </ul>
+      </div>
+      <div class="">
+        <button class="px-6 py-4 bg-red-700 hover:bg-slate-800 rounded-md text-white text-lg sm:text-2xl leading-relaxed shadow"><a href=""><i class="fa-solid fa-download"></i> Télécharger mon CV</a></button>
+      </div>
+    </div>
+  </div>
+</section>
