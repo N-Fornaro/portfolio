@@ -6,6 +6,9 @@ ruby "3.1.2"
 # Simple form
 gem 'simple_form', github: 'heartcombo/simple_form'
 
+# Icons-Font Awesome
+gem "font-awesome-sass", "~> 6.3.0"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
